@@ -1,0 +1,33 @@
+{
+  "name": "gitbook-init",
+  "version": "1.0.0",
+  "description": "gitbook init",
+  "main": "index.js",
+  "scripts": {
+    "init": "gitbook init",
+    "build": "gitbook build",
+    "serve": "gitbook serve",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wchaochao/gitbook-init.git"
+  },
+  "keywords": [
+    "gitbook"
+  ],
+  "author": "wchaochao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wchaochao/gitbook-init/issues"
+  },
+  "homepage": "https://github.com/wchaochao/gitbook-init#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "del": "^3.0.0",
+    "gitbook": "^3.2.2",
+    "gitbook-cli": "^2.3.0",
+    "gulp": "^3.9.1",
+    "q": "^1.5.0"
+  }
+}
