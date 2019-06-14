@@ -4,7 +4,7 @@
   "author": "wchaochao",
   "language": "zh-hans",
   "styles": {
-    "website": "styles/website.css"
+    "website": "lib/styles/website.css"
   },
   "plugins": [
     "-lunr",
