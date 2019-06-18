@@ -4,6 +4,8 @@ dist ?= ../../dist
 # 仓库名
 repo ?= gitbook-init
 
+# 部署
+.PHONY: deploy
 deploy:
 	make pull;make node_modules;make build
 
